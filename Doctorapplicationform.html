@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Appointment Form</title>
+</head>
+<body>
+    <h2 align="center">Doctor Appointment Form</h2>
+    <hr color="red">
+    <form>
+        <p>
+            Appointment Date:
+            <input type="date" name="appointment_date">
+        </p>
+        <p>
+            Appointment Time:
+            <input type="time" name="appointment_time">
+        </p>
+
+        <p>
+            Name:
+            <input type="text" name="first_name" placeholder="First">
+            <input type="text" name="last_name" placeholder="Last">
+        </p>
+        
+        <p>
+            Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="female" value="female">Female
+
+        </p>
+        <p>
+            Phone:
+            <input type="tel" name="phone">
+        </p>
+        <p>
+            Address:
+            <input type="text" name="city" placeholder="city">
+            <input type="text" name="state" placeholder="state">
+        </p>
+        <p>
+            Your Query:<br>
+            <textarea="query" rows="4" cols="40"></textarea>
+        </p>
+        <p>
+            Appointment Type:<br> 
+            Select which appointment type(S) you require:<br>
+            <input type="checkbox" name="appt_type" value="cervix">Cervix checkup<br>
+            <input type="checkbox" name="appt_type" value="heart">Heart checkup<br>
+            <input type="checkbox" name="appt_type" value="eye"> Eye check-up<br>
+            <input type="checkbox" name="appt_type" value="hearing"> Hearing Test
+
+        </p>
+
+        <p>
+            <input type="submit" value="Send"
+
+        </p>
+
+    </form>
+
+</body>
+
+</html>
